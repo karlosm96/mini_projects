@@ -95,7 +95,7 @@ def gen_obj(obj_lst, obj_lst_clone, num_of_obj, gen_obj_condition):
     else:
         FONT_SIZE = 20
         font = pygame.font.SysFont('arial', FONT_SIZE, True, False)
-        message = '## Error: Your MATRIX generator off ##'
+        message = '## Error: Your MATRIX generator is off ##'
         len_messaje = len(message)
         draw_message = font.render(message, True, GREEN)
         screen.blit(draw_message, (((WIDTH-FONT_SIZE)/2)-len_messaje*4, (HEIGHT-FONT_SIZE-4)/2))
